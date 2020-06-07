@@ -197,7 +197,7 @@ def layPiece(grid,laidPieces,piecesLeft): #Recursively lays a piece on grid,
 
 ########### To Run Code #########
 laidPieces=[] #[[piece,orientation,i,j]]
-piecesLeft=list('gabcdef'*2)
+piecesLeft=list('gabcdef'*2) #You can switch the letter order around to let the interpreter come up with different solutions early-on (closest to the original order given here).
 possibleSolutions=[] #store laidPieces
 layPiece(grid,laidPieces,piecesLeft)
 
